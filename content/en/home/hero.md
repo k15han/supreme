@@ -13,7 +13,7 @@ hero_media = "/img/avatar.jpeg"
 # Add as much button as you want
 [[btn]]
 	# The url of the button
-  url = "https://www.kishanchauhan.in/"
+  url = "https://kishanchauhan.in/"
 	# The text of the button
   label = "Column"
 	# Primary color
@@ -28,7 +28,7 @@ hero_media = "/img/avatar.jpeg"
 	primary = true
 
 [[btn]]
-  url = "#contact"
+  url = "https://kishmain.netlify.app/#contact"
   label = 'Contact'
 
 +++
