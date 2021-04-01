@@ -13,7 +13,7 @@ hero_media = "/img/avatar.jpeg"
 # Add as much button as you want
 [[btn]]
 	# The url of the button
-  url = "/kishblog"
+  url = "https://www.kishanchauhan.in/"
 	# The text of the button
   label = "Column"
 	# Primary color
