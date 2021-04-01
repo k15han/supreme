@@ -37,9 +37,3 @@ HUGO_ENABLEGITINFO = "true"
   force = true
   headers = {X-From = "Netlify"}
 
-[[redirects]]
-  from = "/kishcorpus"
-  to = "https://author.kishanchauhan.in"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
