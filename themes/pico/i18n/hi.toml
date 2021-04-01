@@ -1,0 +1,56 @@
+[tagged_in]
+other = "टैग किया हुआ"
+
+[other_tags]
+other = "अन्य टैग"
+
+[read_more]
+other = "आगे पढ़िए"
+
+[name]
+other = "नाम"
+
+[your_message]
+other = "आपका संदेश"
+
+[cancel]
+other = "रद्द करें"
+
+[submit]
+other = "भेजें"
+
+[previous]
+other = "पिछला"
+
+[next]
+other = "अगला"
+
+[back]
+other = "वापस"
+
+[contact]
+other = "संपर्क करें"
+
+[contact_email]
+other = "ई-मेल से संपर्क करें"
+
+[latest_post]
+other = "नवीनतम लेख"
+
+[reading_time]
+other = "{{ .ReadingTime }} मिनट का लेख"
+
+[home]
+other = "मुख्य"
+
+[about]
+other = "विषय में"
+
+[timeline]
+other = "नए लेख"
+
+[present]
+other = "वर्तमान"
+
+[required_fields]
+other = "आवश्यक क्षेत्र"

@@ -1,0 +1,128 @@
+# Use an empty string if you have multiple domain linking to your website
+# This string is used to generate the absolute URL for your assets.
+baseURL = ''
+defaultContentLanguage = 'en'
+# Emoji in markdown files
+enableEmoji = true
+languageCode = 'en-us'
+# Number of blog post per page
+paginate = 10
+theme = 'pico'
+# Title of the website is used for the meta tag title
+# and the square icon (not the favicon)
+title = 'Kishan Chauhan'
+
+[params]
+customCSS = [
+	"style/style.css",
+	"style/theme.sass",
+] # Path relative to assets folder
+customJS = ["js/console.js"] # Path relative to assets folder
+# Homepage description
+# For blog page description you can overwrite it 
+# in the front matter
+description = "Kishan Chauhan"
+email = "k13han@pm.me"
+favicon = '/favicon.ico'
+# Dark mode support
+# Supported value are :
+# - off
+# - always
+# If commented the theme will use the browser theme.
+# darkMode = 'always'
+
+# Social parameters for contact_icons widget
+[[params.social]]
+alt = "email icon"
+icon = "/icons/email.svg"
+name = "email"
+url = "mailto:k13han@pm.me"
+
+[[params.social]]
+alt = "github icon"
+blank = true
+icon = "/icons/github.svg"
+name = "github"
+url = "https://github.com/k15h4n"
+
+[[params.social]]
+alt = "twitter icon"
+blank = true
+icon = "/icons/twitter.svg"
+name = "twitter"
+url = "https://twitter.com/kiscellaneous"
+
+[[params.social]]
+alt = "facebook icon"
+blank = true
+icon = "/icons/facebook.svg"
+name = "facebook"
+url = "https://facebook.com/kiscellaneous"
+
+[[params.social]]
+alt = "instagram icon"
+blank = true
+icon = "/icons/instagram.svg"
+name = "instagram"
+url = "https://instagram.com/thekishanchauhan"
+
+# Navigation bar
+[menu]
+
+[[menu.main]]
+identifier = "home" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/" 
+weight = 10 
+
+[[menu.main]]
+identifier = "timeline" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/#timeline" 
+weight = 20 
+
+[[menu.main]]
+identifier = "contact" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/#contact" 
+weight = 30 
+
+# Syntax highlightning
+[markup.highlight]
+guessSyntax = true 
+lineNumbersInTable = true 
+noClasses = false # Set to false to use the Pico default theme.
+tabWidth = 2 
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# Translation
+# English, French and Italian are supported but you can contribute
+# by adding translation to i18n/ folder.
+[languages.en]
+contentDir = 'content/en'
+languageCode = 'en'
+languageName = 'English'
+weight = 0
+
+[languages.hi]
+contentDir = 'content/hi'
+languageCode = 'hi'
+languageName = 'Hindi'
+weight = 2
+
+# Uncomment the following lines to add an italian translation.
+# [languages.it]
+# contentDir = 'content/it'
+# languageCode = 'it'
+# languageName = 'Italiano'
+# weight = 3
+
+# Uncomment the following lines to add an spanish translation.
+# [languages.es]
+# contentDir = 'content/es'
+# languageCode = 'es'
+# languageName = 'Español'
+# weight = 4
