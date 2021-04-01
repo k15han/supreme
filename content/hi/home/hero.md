@@ -28,7 +28,7 @@ hero_media = "/img/avatar.jpeg"
 	primary = true
 
 [[btn]]
-  url = "#contact"
+  url = "https://kishmain.netlify.app/#contact"
   label = 'संपर्क करें'
 
 +++
