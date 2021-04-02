@@ -43,7 +43,7 @@ alt = "github icon"
 blank = true
 icon = "/icons/github.svg"
 name = "github"
-url = "https://github.com/k15h4n"
+url = "https://github.com/k15han"
 
 [[params.social]]
 alt = "twitter icon"
