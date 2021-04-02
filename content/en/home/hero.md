@@ -15,7 +15,7 @@ hero_media = "/img/avatar.jpeg"
 	# The url of the button
   url = "https://kishanchauhan.in/"
 	# The text of the button
-  label = "Column"
+  label = "Blog"
 	# Primary color
 	primary = true
 
