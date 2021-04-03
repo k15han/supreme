@@ -21,14 +21,14 @@ hero_media = "/img/avatar.jpeg"
 
 [[btn]]
 	# The url of the button
-  url = ""
+  url = "https://kishanchauhan.in"
 	# The text of the button
   label = "साहित्य"
 	# Primary color
 	primary = true
 
 [[btn]]
-  url = "https://kishanchauhan.in/#contact"
+  url = "https://kishanchauhan.in/hi/#contact"
   label = 'संपर्क करें'
 
 +++
