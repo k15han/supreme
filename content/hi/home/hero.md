@@ -21,7 +21,7 @@ hero_media = "/img/avatar.jpeg"
 
 [[btn]]
 	# The url of the button
-  url = "https://author.kishanchauhan.in"
+  url = "https://kishmain.netlify.app/404"
 	# The text of the button
   label = "साहित्य"
 	# Primary color
