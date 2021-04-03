@@ -21,14 +21,14 @@ hero_media = "/img/avatar.jpeg"
 
 [[btn]]
 	# The url of the button
-  url = "/404"
+  url = "https://kishanchauhan.in/404"
 	# The text of the button
   label = "Corpus"
 	# Primary color
 	primary = true
 
 [[btn]]
-  url = "https://kishmain.netlify.app/#contact"
+  url = "https://kishanchauhan.in/#contact"
   label = 'Contact'
 
 +++
