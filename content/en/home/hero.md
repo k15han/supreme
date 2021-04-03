@@ -21,7 +21,7 @@ hero_media = "/img/avatar.jpeg"
 
 [[btn]]
 	# The url of the button
-  url = "https://kishanchauhan.in/404"
+  url = ""
 	# The text of the button
   label = "Corpus"
 	# Primary color
